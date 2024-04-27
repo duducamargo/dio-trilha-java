@@ -81,19 +81,19 @@ public class ContaTerminal {
                             System.out.println("Nome: " + contas.get(i).getNomeCliente());
                             System.out.println("Número da conta: " + contas.get(i).getNumeroConta());
                             System.out.println("Agência: " + contas.get(i).getAgencia());
-                            System.out.println("Saldo: " + contas.get(i).getSaldo());
+                            System.out.println("Saldo: R$" + contas.get(i).getSaldo());
                             break;
                         case 2:
                             System.out.print("Insira o valor que você deseja depositar em sua conta: ");
                             double valorDepositado = Double.parseDouble(scanner.nextLine());
                             contas.get(i).depositar(valorDepositado);
-                            System.out.println("Depósito realizado, seu saldo é: " + contas.get(i).getSaldo());
+                            System.out.println("Depósito realizado, seu saldo é: R$" + contas.get(i).getSaldo());
                             break;
                         case 3:
                             System.out.print("Insira o valor que você deseja sacar de sua conta: ");
                             double valorSacado = Double.parseDouble(scanner.nextLine());
                             contas.get(i).sacar(valorSacado);
-                            System.out.println(("Saque realizado com sucesso, seu saldo é: " + contas.get(i).getSaldo()));
+                            System.out.println(("Saque realizado com sucesso, seu saldo é: R$" + contas.get(i).getSaldo()));
                             break;
                         case 4:
                             System.out.println("Excluindo conta...");
