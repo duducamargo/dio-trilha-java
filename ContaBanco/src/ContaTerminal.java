@@ -55,6 +55,13 @@ public class ContaTerminal {
         System.out.println("Conta criada com sucesso!");
     }
 
+    /**
+     * Acessa uma conta se tal conta ja existir na lista.
+     *
+     * @param contas   Lista de contas bancárias
+     * @param scanner  Scanner para entrada de dados do usuário
+     */
+
     public static void entrarConta(List<ContasBanco> contas, Scanner scanner) {
         int numeroConta, opc;
         boolean encontrado = false;
