@@ -2,14 +2,23 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Esta classe representa um terminal de controle de contas bancárias.
+ */
 public class ContaTerminal {
 
+    /**
+     * Imprime o menu principal do terminal.
+     */
     public static void imprimirMenu() {
         System.out.println("[1] Criar Conta");
         System.out.println("[2] Entrar na conta");
         System.out.println("[3] Sair");
     }
 
+    /**
+     * Imprime o menu de operações disponíveis para uma conta.
+     */
     public static void menuConta() {
         System.out.println("[1] Listar conta");
         System.out.println("[2] Realizar depósito");
@@ -17,6 +26,13 @@ public class ContaTerminal {
         System.out.println("[4] Excluir conta");
         System.out.println("[5] Sair");
     }
+
+    /**
+     * Cria uma nova conta bancária e a adiciona à lista de contas.
+     *
+     * @param contas   Lista de contas bancárias
+     * @param scanner  Scanner para entrada de dados do usuário
+     */
 
     public static void criarConta(List<ContasBanco> contas, Scanner scanner) {
         String nomeCliente, agencia;

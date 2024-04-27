@@ -31,10 +31,22 @@ public class ContasBanco {
         this.saldo = novoSaldo;
     }
 
+    /**
+     * Deposita determinado valor na conta do usuario.
+     *
+     * @param valorDepositado se refere ao valor digitado pelo usuario
+     */
+
     public void depositar(double valorDepositado) {
         double novoSaldo = getSaldo() + valorDepositado;
         setSaldo(novoSaldo);
     }
+
+    /**
+     * Saca determinado valor na conta do usuario.
+     *
+     * @param valorSacado se refere ao valor digitado pelo usuario
+     */
 
     public void sacar(double valorSacado) {
         double novoSaldo = getSaldo() - valorSacado;
