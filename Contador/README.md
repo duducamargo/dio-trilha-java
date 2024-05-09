@@ -1,18 +1,41 @@
-## Getting Started
+# Projeto Contador Cronômetro
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte de um desafio durante um curso de Java. Ele permite ao usuário executar diferentes tipos de contadores cronômetro através do terminal.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Contador manual: permite ao usuário inserir um tempo e inicia uma contagem regressiva até zero.
+- Contador por subtração: permite ao usuário inserir dois tempos e inicia uma contagem regressiva a partir da diferença entre eles.
+- Contador por adição: permite ao usuário inserir dois tempos e inicia uma contagem regressiva a partir da soma deles.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone este repositório em sua máquina local.
+2. Abra o terminal e navegue até o diretório do projeto.
+3. Compile o programa utilizando o comando `javac Main.java`.
+4. Execute o programa com o comando `java Main`.
+5. Siga as instruções apresentadas no terminal para interagir com o programa.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Exemplo de uso para o contador manual:
 
-## Dependency Management
+- Insira o tempo do cronômetro em segundos: `30`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este comando iniciará um contador regressivo de 30 segundos.
+
+### Exemplo de uso para o contador por subtração:
+
+- Insira o primeiro valor em segundos: `40`
+- Insira o segundo valor em segundos: `30`
+
+Este comando iniciará um contador regressivo de 10 segundos, subtraindo o segundo valor do primeiro.
+
+### Exemplo de uso para o contador por adição:
+
+- Insira o primeiro valor em segundos: `5`
+- Insira o segundo valor em segundos: `20`
+
+Este comando iniciará um contador regressivo de 25 segundos, somando os dois valores.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
