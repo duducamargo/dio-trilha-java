@@ -8,7 +8,7 @@ O repositório está organizado em subdiretórios, cada um contendo um conjunto 
 
 - `ContaBanco`: Desafio relacionado a controle de fluxo e a leitura de dados por via do terminal, o programa em questão se trata de um sistema Bancário.
 - `Contador`: Desafio relacionado a controle de fluxo e a leitura de dados por via do terminal, o programa em questão se trata de um cronômetro.
-- `IPhonwUML`: Desafio relacionado a herança e interface, o programa em questão faz referêncai ao primeiro IPhone anunciado (2007).
+- `IPhoneUML`: Desafio relacionado a herança e interface, o programa em questão faz referêncai ao primeiro IPhone anunciado (2007).
 
 ## Como Usar Este Repositório
 
