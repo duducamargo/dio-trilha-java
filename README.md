@@ -1,28 +1,28 @@
-# Desafios de Desenvolvimento Java
+# Java Development Challenges
 
-Este repositório contém uma coleção de desafios práticos relacionados ao desenvolvimento em Java. Cada desafio é projetado para ajudar os alunos a aprimorar suas habilidades de programação, aplicar conceitos aprendidos em aula e desenvolver soluções criativas para problemas comuns de programação.
+This repository contains a collection of practical challenges related to Java development. Each challenge is designed to help students enhance their programming skills, apply concepts learned in class, and develop creative solutions to common programming problems.
 
-## Estrutura do Repositório
+## Repository Structure
 
-O repositório está organizado em subdiretórios, cada um contendo um conjunto de desafios relacionados a um tópico específico. Abaixo está uma breve visão geral dos desafios disponíveis:
+The repository is organized into subdirectories, each containing a set of challenges related to a specific topic. Below is a brief overview of the available challenges:
 
-- `ContaBanco`: Desafio relacionado a controle de fluxo e a leitura de dados por via do terminal, o programa em questão se trata de um sistema Bancário.
-- `Contador`: Desafio relacionado a controle de fluxo e a leitura de dados por via do terminal, o programa em questão se trata de um cronômetro.
-- `IPhoneUML`: Desafio relacionado a herança e interface, o programa em questão faz referêncai ao primeiro IPhone anunciado (2007).
+- `ContaBanco`: A challenge related to flow control and data reading from the terminal. This program is a Banking System.
+- `Contador`: A challenge related to flow control and data reading from the terminal. The program is a Timer.
+- `IPhoneUML`: A challenge related to inheritance and interface, referring to the first iPhone announced (2007).
 
-## Como Usar Este Repositório
+## How to Use This Repository
 
-1. Clone este repositório em sua máquina local usando o comando `git clone`.
-2. Navegue até o diretório do desafio que deseja resolver.
-3. Leia o enunciado do desafio no arquivo README.md dentro do diretório.
-4. Implemente sua solução para o desafio, seguindo as instruções fornecidas.
-5. Teste sua solução e verifique se ela atende aos requisitos especificados.
-6. Compartilhe sua solução, se desejar, criando um fork deste repositório e enviando um pull request.
+1. Clone this repository to your local machine using the `git clone` command.
+2. Navigate to the directory of the challenge you want to solve.
+3. Read the challenge description in the README.md file inside the directory.
+4. Implement your solution to the challenge, following the provided instructions.
+5. Test your solution and ensure it meets the specified requirements.
+6. Share your solution if you wish by creating a fork of this repository and submitting a pull request.
 
-## Contribuição
+## Contribution
 
-Contribuições para este repositório são bem-vindas! Se você tem um novo desafio para adicionar, uma correção para fazer ou uma melhoria para sugerir, sinta-se à vontade para abrir um problema ou enviar um pull request.
+Contributions to this repository are welcome! If you have a new challenge to add, a fix to make, or an improvement to suggest, feel free to open an issue or submit a pull request.
 
-## Licença
+## License
 
-Este repositório está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
